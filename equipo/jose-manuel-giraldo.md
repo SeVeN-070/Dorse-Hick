@@ -1,6 +1,6 @@
-# Jose Manuel Giraldo
+# José Manuel Giraldo Garcia
 
-- **Usuario de GitHub:** @jggm1528
+- **Usuario de GitHub:** @dye_zey
 - **Rol en la Empresa:** Desarrollador de Software
 
 ## Descripción Profesional
