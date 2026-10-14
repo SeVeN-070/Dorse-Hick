@@ -1,4 +1,4 @@
-# José Manuel Giraldo Garcia
+# José Manuel Giraldo
 
 - **Usuario de GitHub:** @dye_zey
 - **Rol en la Empresa:** Desarrollador de Software
