@@ -1,3 +1,7 @@
+# Datos del cliente (se generan localmente, no se suben)
+bandeja_entrada/
+pedidos_ordenados/
+revisar/
+
 __pycache__/
 .venv/
-.env
