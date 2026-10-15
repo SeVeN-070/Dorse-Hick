@@ -21,3 +21,38 @@ El proyecto está organizado según las siguientes carpetas y archivos clave:
 * **`README.md`**: Portada y descripción general del proyecto y la empresa.
 * **`CONTRIBUTING.md`**: Guía y reglas de trabajo colaborativo para el flujo de Git y GitHub.
 * **`.gitignore`**: Lista de archivos y carpetas que se excluyen del control de versiones (archivos temporales, entornos virtuales, credenciales, etc.).
+
+## Estructura del Proyecto
+
+* `generar_pedidos.py`: Script proporcionado para simular la recepción de archivos en la bandeja de entrada.
+* `organizar.py`: Script principal de procesamiento y clasificación de pedidos.
+* `sedes.py`: Módulo para la validación y normalización de las sedes (Itagüí, Envigado, Sabaneta, Bello).
+* `lectores.py`: Módulo encargado de procesar los diferentes formatos de archivo (`.txt`, `.csv`, `.json`).
+* `config.json`: Archivo de configuración general.
+* `.gitignore`: Filtro para ignorar archivos temporales y carpetas de datos generadas.
+
+## Requisitos Previos
+
+* **Python 3.8** o superior instalado en el sistema.
+* Entorno de consola (**Git Bash** o terminal integrada de VS Code).
+
+## Instrucciones de Ejecución
+
+### 1. Generar la bandeja de entrada de pedidos
+
+Para simular la llegada de archivos de pedidos en la carpeta `bandeja_entrada/`, ejecuta el script según el lote deseado:
+
+- **Lote 1 (Septiembre):**
+
+Lote 1 (Septiembre):
+python generar_pedidos.py
+
+Lote 2 (Octubre):
+python generar_pedidos.py --lote 2
+
+Nota: La carpeta bandeja_entrada/ se creará automáticamente y no se rastreará en Git gracias al archivo .gitignore.
+
+### 2. Procesar y organizar los pedidos
+Una vez generados los pedidos en la bandeja de entrada, ejecuta el script principal para procesar, filtrar y mover los archivos válidos y dañados:
+
+python organizar.py
